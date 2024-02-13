@@ -1,5 +1,5 @@
 Create Table ORDERS(
-    id Integer Identity(1, 1) Not Null,
+    id Integer Not Null Auto_Increment,
     date datetime Null,
     customer_id Integer Null,
     product_name VarChar(128) Null,

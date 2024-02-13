@@ -1,5 +1,5 @@
 Create Table CUSTOMERS(
-    id Integer Identity(1, 1) Not Null,
+    id Integer Not Null Auto_Increment,
     name VarChar(32) Null,
     surname VarChar(32) Null,
     age Integer Null,
